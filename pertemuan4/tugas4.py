@@ -60,3 +60,33 @@ j = False
 print (i,j)
 print (type(i))
 print (type(j))
+
+#variabel
+a = "Hemiltin adilah"
+def func():
+    a = "datang"
+    print ("selamat "+ a)
+func()
+print (a)
+
+#definisi
+def tambah():
+    a = 10
+    b= 15
+    c= a+b
+    print (c)
+
+tambah()
+
+#parameter
+def data(nama,nim):
+    print(f"nama saya {nama} dan nim {nim}")
+data ("Hemiltin Adilah","20210801147")
+
+#contoh
+def total(sisi):
+    return sisi*sisi
+
+
+def segitiga(alas,tinggi):
+    return 0.5*alas*tinggi
